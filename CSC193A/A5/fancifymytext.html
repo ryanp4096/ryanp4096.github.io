@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Fancify Shamcify</title>
+		<meta charset="utf-8">
+		<link href="fancifymytext.css" rel="stylesheet">
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		<fieldset>
+			<legend><h2>Text</h2></legend>
+			<textarea id="textentry" name="text" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend><h2>Fancify</h2></legend>
+			<p>
+				<button id="bigger" onclick="bigger()">Bigger!</button>
+				<button id="moo" onclick="moo()">Moo</button>
+			</p>
+			<p>
+				<input type="radio" id="fancy" name="radio" value="FancyShmancy" onchange="fancy()"> FancyShmancy
+				<input type="radio" id="boring" name="radio" value="BoringBetty" onchange="boring()"> BoringBetty
+			</p>
+		</fieldset>
+		
+	</body>
+
+</html>

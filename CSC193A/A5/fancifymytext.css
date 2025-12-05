@@ -1,0 +1,17 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 100px;
+}
+
+fieldset {
+    margin-block: 10px;
+}
+
+button {
+    padding: 4px 20px;
+    font-size: 1.0em;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
